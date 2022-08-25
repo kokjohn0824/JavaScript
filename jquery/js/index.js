@@ -1,13 +1,13 @@
 
 
-$('button').click(()=>{
-    $('button').hide()
-    
-    setTimeout(()=>{
-        $('button').show()
-        
-    },1000)
+$('button').mouseover(()=>{
+   $('button').fadeOut();
+   setTimeout(function name(params) {
+    $('button').fadeIn()
+   },1000)
 })
 
-
-
+$('button').click(() => {
+    console.log('you got it!');
+}
+    )
