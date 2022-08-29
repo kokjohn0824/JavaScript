@@ -1,13 +1,14 @@
+const p = new Promise(function(resolve, reject){
+    const num  =Math.random()>0.5
+    if(num){
+        resolve('success from resolve')
+    }else{
+        reject('failed from reject')
+    }
+});
 
 
-$('button').mouseover(()=>{
-   $('button').fadeOut();
-   setTimeout(function name(params) {
-    $('button').fadeIn()
-   },1000)
-})
-
-$('button').click(() => {
-    console.log('you got it!');
-}
-    )
+console.log(p.then((e) => {
+console.log(e);
+}).catch((e) => {    console.log(e);
+})); 
