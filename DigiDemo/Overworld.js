@@ -10,7 +10,7 @@ class Overworld {
       image.onload = () => {
         this.ctx.drawImage(image, 0,0,500,275)
       };
-      image.src = "images/maps/background.jpg";
+      image.src = "images/maps/background2.jpg";
    
    
       const x = 20;
