@@ -8,13 +8,13 @@ class Overworld {
     init() {
       const image = new Image();
       image.onload = () => {
-        this.ctx.drawImage(image, 0,0,500,275)
+        this.ctx.drawImage(image, 0,0,300,165)
       };
       image.src = "images/maps/background2.jpg";
    
    
-      const x = 20;
-      const y = 12;
+      const x = 12;
+      const y = 8;
    
       const hero = new Image();
       hero.onload = () => {
