@@ -19,8 +19,8 @@ class OverworldMap {
 
 window.OverworldMaps = {
   DemoRoom: {
-    lowerSrc: "/images/maps/DemoLower.png",
-    upperSrc: "/images/maps/DemoUpper.png",
+    lowerSrc: "images/maps/DemoLower.png",
+    upperSrc: "images/maps/DemoUpper.png",
     gameObjects: {
       hero: new GameObject({
         x: 5,
@@ -29,13 +29,13 @@ window.OverworldMaps = {
       npc1: new GameObject({
         x: 7,
         y: 9,
-        src: "/images/characters/people/npc1.png"
+        src: "images/characters/people/npc1.png"
       })
     }
   },
   Kitchen: {
-    lowerSrc: "/images/maps/KitchenLower.png",
-    upperSrc: "/images/maps/KitchenUpper.png",
+    lowerSrc: "images/maps/KitchenLower.png",
+    upperSrc: "images/maps/KitchenUpper.png",
     gameObjects: {
       hero: new GameObject({
         x: 3,
@@ -44,12 +44,12 @@ window.OverworldMaps = {
       npcA: new GameObject({
         x: 9,
         y: 6,
-        src: "/images/characters/people/npc2.png"
+        src: "images/characters/people/npc2.png"
       }),
       npcB: new GameObject({
         x: 10,
         y: 8,
-        src: "/images/characters/people/npc3.png"
+        src: "images/characters/people/npc3.png"
       })
     }
   },
